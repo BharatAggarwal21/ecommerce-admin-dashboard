@@ -8,7 +8,7 @@ import { AuthProvider } from "./context/AuthContext";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ecommerce-admin-dashboard">
       <AuthProvider>
         <Toaster position="top-right" />
         <App />
